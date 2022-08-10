@@ -1,0 +1,80 @@
+syntax = "proto3";
+
+message Channel {
+    string id = 1;
+    string title = 2;
+    string type = 3;
+}
+
+message AddChannelRequest {
+    string title = 2;
+    string type = 3;
+}
+
+message AddChannelResponse {
+    string id = 1;
+    string title = 2;
+    string type = 3;
+}
+
+message UpdateChannelPayload {
+    string title = 1;
+    string type = 2;
+}
+
+message UpdateChannelRequest {
+    string id = 1;
+    UpdateChannelPayload payload = 2;
+}
+
+message UpdateChannelResponse {
+    string id = 1;
+    string title = 2;
+    string type = 3;
+}
+
+message DeleteChannelRequest {
+    string id = 1;
+}
+
+message DeleteChannelResponse {
+    string id = 1;
+    string title = 2;
+    string type = 3;
+}
+
+message GetChannelRequest {
+    string id = 1;
+}
+
+message GetChannelMessageUserResponse {
+    string name = 1;
+    string email = 2;
+}
+
+message GetChannelMessageResponse {
+    string message = 1;
+    string channel = 2;
+    GetChannelMessageUserResponse user = 3;
+}
+
+message GetChannelResponse {
+    Channel channel = 1;
+    repeated GetChannelMessageResponse messages = 2;
+}
+
+message GetChannelsRequest {
+    
+}
+
+// message GetChannelsResponse {
+//     repeated Channel channels = 1;
+// }
+
+service ChannelService {
+    rpc getChannel (GetChannelRequest) returns (GetChannelResponse) {} 
+    rpc getChannels (GetChannelsRequest) returns (stream Channel) {} 
+    rpc addChannel (AddChannelRequest) returns (AddChannelResponse) {} 
+    rpc updateChannel (UpdateChannelRequest) returns (UpdateChannelResponse) {}
+    rpc deleteChannel (DeleteChannelRequest) returns (DeleteChannelResponse) {}
+}

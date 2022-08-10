@@ -1,0 +1,25 @@
+version: "3.8"
+
+networks:
+  graphql-network:
+    driver: bridge
+
+services:
+  database:
+    image: mongo:4.4.6
+    container_name: graphq-database
+    environment:
+      - MONGO_INITDB_DATABASE=database
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - graphql_volume:/data/db
+    ports:
+      - 27017:27017
+    restart: unless-stopped
+    networks:
+      - graphql-network
+
+volumes:
+  graphql_volume:
+    name: graphql_database_volume

@@ -1,0 +1,25 @@
+type MessageUser {
+  name: String
+  email: String
+}
+
+type MessageChannel {
+  id: ID
+  title: String
+  type: Privacy
+}
+
+type Message {
+  id: ID
+  message: String!
+  channel: MessageChannel
+  user: MessageUser
+}
+
+type Query {
+  getMessage(id: ID!): Message
+}
+
+type Mutation {
+  postMessage(message: String!, channel: String!, user: String!): Message
+}

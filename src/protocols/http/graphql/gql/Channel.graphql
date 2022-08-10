@@ -1,0 +1,42 @@
+type Channel {
+  id: ID!
+  title: String!
+  type: Privacy
+}
+
+enum Privacy {
+  Public
+  Private
+}
+
+type GetChannelMessageUserResponse {
+  name: String
+  email: String
+}
+
+type GetChannelMessageResponse {
+  message: String
+  channel: String
+  user: GetChannelMessageUserResponse
+}
+
+type GetChannelResponse {
+  channel: Channel,
+  messages: [GetChannelMessageResponse]
+}
+
+type Query {
+  getChannel(id: ID!): GetChannelResponse
+  getChannels: [Channel]
+}
+
+input UpdateChannelPayloadInput {
+  title: String
+  type: String
+}
+
+type Mutation {
+  addChannel(title: String!, type: String): Channel
+  updateChannel(id: ID!, payload: UpdateChannelPayloadInput!): Channel
+  deleteChannel(id: ID!): Channel
+}

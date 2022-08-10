@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+message MessageUser {
+    string name = 1;
+    string email = 2;
+}
+
+message MessageChannel {
+    string id = 1;
+    string title = 2;
+    string type = 3;
+}
+
+message Message {
+    string id = 1;
+    string message = 2;
+    MessageChannel channel = 3;
+    MessageUser user = 4;
+}
+
+message PostMessageRequest {
+    string message = 1;
+    string channel = 2;
+    string user = 3;
+}
+
+message PostMessageResponse {
+    string successfulReports = 1;
+    string failedReports = 2;
+}
+
+message GetMessageRequest {
+    string id = 1;
+}
+
+message GetMessageResponse {
+    string id = 1;
+    string message = 2;
+    MessageChannel channel = 3;
+    MessageUser user = 4;
+}
+
+service MessageService {
+    rpc getMessage (GetMessageRequest) returns (GetMessageResponse) {} 
+    rpc postMessage (stream PostMessageRequest) returns (PostMessageResponse) {} 
+}

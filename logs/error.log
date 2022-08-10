@@ -1,0 +1,143 @@
+{"level":"error","message":"Error while executing the function"}
+{"code":11000,"index":0,"keyPattern":{"title":1},"keyValue":{"title":"Channel"},"level":"error","message":"Error while creating the channel E11000 duplicate key error collection: database.channels index: title_1 dup key: { title: \"Channel\" }","stack":"MongoServerError: E11000 duplicate key error collection: database.channels index: title_1 dup key: { title: \"Channel\" }\n    at /Users/saranshmittal/graphql-backend/node_modules/mongodb/lib/operations/insert.js:53:33\n    at /Users/saranshmittal/graphql-backend/node_modules/mongodb/lib/cmap/connection_pool.js:299:25\n    at /Users/saranshmittal/graphql-backend/node_modules/mongodb/lib/sdam/server.js:212:17\n    at handleOperationResult (/Users/saranshmittal/graphql-backend/node_modules/mongodb/lib/sdam/server.js:287:20)\n    at Connection.onMessage (/Users/saranshmittal/graphql-backend/node_modules/mongodb/lib/cmap/connection.js:219:9)\n    at MessageStream.<anonymous> (/Users/saranshmittal/graphql-backend/node_modules/mongodb/lib/cmap/connection.js:60:60)\n    at MessageStream.emit (node:events:390:28)\n    at processIncomingData (/Users/saranshmittal/graphql-backend/node_modules/mongodb/lib/cmap/message_stream.js:132:20)\n    at MessageStream._write (/Users/saranshmittal/graphql-backend/node_modules/mongodb/lib/cmap/message_stream.js:33:9)\n    at writeOrBuffer (node:internal/streams/writable:389:12)"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:19)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:19)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:19)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:19)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:26)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:26)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:26)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:26)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:26)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:15:26)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"code":"ERR_INVALID_ARG_TYPE","level":"error","message":"Error while create hash for the user password The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Promise\n    at new NodeError (node:internal/errors:371:5)\n    at Function.from (node:buffer:322:9)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:16:26)\n    at model.set (/Users/saranshmittal/graphql-backend/src/models/user.schema.js:25:16)\n    at SchemaString.SchemaType._applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1161:20)\n    at SchemaString.SchemaType.applySetters (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/schematype.js:1186:16)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1364:22)\n    at model.$set (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:1089:16)\n    at model.Document (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/document.js:166:12)\n    at model.Model (/Users/saranshmittal/graphql-backend/node_modules/mongoose/lib/model.js:119:12)"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while updating the channel information"}
+{"level":"error","message":"Error while updating the channel information"}
+{"level":"error","message":"Error while updating the channel information"}
+{"level":"error","message":"Error while updating the channel information"}
+{"level":"error","message":"Error while updating the channel information"}
+{"level":"error","message":"Error while updating the channel information"}
+{"level":"error","message":"Error while removing the channel"}
+{"level":"error","message":"Error while removing the channel"}
+{"level":"error","message":"Failed to connect to the database"}
+{"level":"error","message":"Failed to connect to the database"}
+{"level":"error","message":"Failed to connect to the database"}
+{"level":"error","message":"Failed to connect to the database"}
+{"level":"error","message":"Failed to connect to the database"}
+{"level":"error","message":"Failed to connect to the database"}
+{"level":"error","message":"Error while create hash for the user password data and salt arguments required","stack":"Error: data and salt arguments required\n    at Object.hash (/Users/saranshmittal/graphql-backend/node_modules/bcrypt/bcrypt.js:137:17)\n    at /Users/saranshmittal/graphql-backend/node_modules/bcrypt/promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (/Users/saranshmittal/graphql-backend/node_modules/bcrypt/promises.js:20:12)\n    at Object.hash (/Users/saranshmittal/graphql-backend/node_modules/bcrypt/bcrypt.js:133:25)\n    at createHash (/Users/saranshmittal/graphql-backend/src/utils/cryptography.js:13:31)\n    at createUser (/Users/saranshmittal/graphql-backend/src/services/index.js:35:32)\n    at Object.createUser (/Users/saranshmittal/graphql-backend/src/protocols/grpc/resolver.js:9:28)\n    at handleUnary (/Users/saranshmittal/graphql-backend/node_modules/@grpc/grpc-js/build/src/server.js:688:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"Error while creating a new user"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while creating the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Message received not in JSON format or any other error received"}
+{"level":"error","message":"Started the ws server on port 3002"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Error while posting the message to the channel"}
+{"level":"error","message":"Message received not in JSON format or any other error received"}
+{"level":"error","message":"Message received not in JSON format or any other error received"}
